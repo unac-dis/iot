@@ -1,14 +1,22 @@
 <project>
    <modelVersion>4.0.0</modelVersion>
-   <groupId>root</groupId>
-   <version>1.0</version>
-   <artifactId>iot-example-project</artifactId>
+
+  <parent>
+    <groupId>co.edu.unac.dis</groupId>
+    <artifactId>iot-example</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+   <groupId>co.edu.unac.dis</groupId>
+   <artifactId>iot-example-control</artifactId>
+   <version>1.0-SNAPSHOT</version>   
    <packaging>pom</packaging>
-   <name>iot-example-project</name>
+   <name>IoT Example control module</name>
+
    <modules>
       <module>projects</module>
      <!--<module>primary-source</module>-->
-      <module>servlets</module>
+     <!--<module>servlets</module>-->
      <!--<module>ejbs</module>-->
      <!--<module>ear</module>-->
      <!--<module>site</module>-->
@@ -29,34 +37,34 @@
    <dependencyManagement>
       <dependencies>
          <dependency>
-            <groupId>root.project.projects</groupId>
+            <groupId>co.edu.unac.dis</groupId>
             <artifactId>logging</artifactId>
-            <version>1.0</version>
+            <version>1.0-SNAPSHOT</version>
          </dependency>
-         <dependency>
-            <groupId>root.project</groupId>
+<!--      <dependency>
+            <groupId>co.edu.unac.dis</groupId>
             <artifactId>primary-source</artifactId>
-            <version>1.0</version>
+            <version>1.0-SNAPSHOT</version>
          </dependency>
          <dependency>
-            <groupId>root.project.servlets</groupId>
+            <groupId>co.edu.unac.dis</groupId>
             <artifactId>servlet</artifactId>
-            <version>1.0</version>
+            <version>1.0-SNAPSHOT</version>
             <type>war</type>
          </dependency>
          <dependency>
-            <groupId>root.project</groupId>
+            <groupId>co.edu.unac.dis</groupId>
             <artifactId>ejbs</artifactId>
             <version>1.0</version>
             <type>ejb</type>
-         </dependency>
+         </dependency> -->
       </dependencies>
    </dependencyManagement>
-   <distributionManagement>
+<!--   <distributionManagement>
       <site>
          <id>site</id>
          <name>project website</name>
          <url>scp://local.company.com/websites/project.company.com/</url>
       </site>
-   </distributionManagement>
+   </distributionManagement> -->
 </project>

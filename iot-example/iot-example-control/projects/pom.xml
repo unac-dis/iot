@@ -1,15 +1,18 @@
 <project>
    <modelVersion>4.0.0</modelVersion>
-   <groupId>root.project</groupId>
-   <version>1.0</version>
+
+   <parent>
+      <groupId>co.edu.unac.dis</groupId>
+      <artifactId>iot-example-control</artifactId>
+      <version>1.0-SNAPSHOT</version>
+   </parent>
+
+   <groupId>co.edu.unac.dis</groupId>
+   <version>1.0-SNAPSHOT</version>
    <artifactId>projects</artifactId>
    <packaging>pom</packaging>
-   <name>sub projects</name>
-   <parent>
-      <groupId>root</groupId>
-      <artifactId>project</artifactId>
-      <version>1.0</version>
-   </parent>
+   <name>IoT Example sub projects</name>
+
    <modules>
       <module>logging</module>
    </modules>

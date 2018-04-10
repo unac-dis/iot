@@ -1,0 +1,16 @@
+========================================================================================
+Report      : WARNING
+Date        : Mon Apr 09 17:25:28 CEST 2018
+Description : Create shared memory segment failed for domain ospl_sp_ddsi, the segment already exists.
+Node        : PC-Ivan
+Process     : spliced <24531>
+Thread      : main thread 7f607552c700
+Internals   : 6.7.2/db9d039/c8f345c/user::u_domain::u_domainNew/u_domain.c/834/781/1523287528.035056043/3
+========================================================================================
+Report      : WARNING
+Date        : Mon Apr 09 17:25:43 CEST 2018
+Description : Create shared memory segment failed for domain ospl_sp_ddsi, the segment already exists.
+Node        : PC-Ivan
+Process     : spliced <24535>
+Thread      : main thread 7feb073be700
+Internals   : 6.7.2/db9d039/c8f345c/user::u_domain::u_domainNew/u_domain.c/834/781/1523287543.258879766/3
